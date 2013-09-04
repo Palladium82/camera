@@ -1,0 +1,305 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DC4890D417D6EFF400E20E2A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC4890D317D6EFF400E20E2A /* UIKit.framework */; };
+		DC4890D617D6EFF400E20E2A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC4890D517D6EFF400E20E2A /* Foundation.framework */; };
+		DC4890D817D6EFF400E20E2A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC4890D717D6EFF400E20E2A /* CoreGraphics.framework */; };
+		DC4890DE17D6EFF400E20E2A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DC4890DC17D6EFF400E20E2A /* InfoPlist.strings */; };
+		DC4890E017D6EFF400E20E2A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DC4890DF17D6EFF400E20E2A /* main.m */; };
+		DC4890E417D6EFF400E20E2A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DC4890E317D6EFF400E20E2A /* AppDelegate.m */; };
+		DC4890E617D6EFF400E20E2A /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = DC4890E517D6EFF400E20E2A /* Default.png */; };
+		DC4890E817D6EFF400E20E2A /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DC4890E717D6EFF400E20E2A /* Default@2x.png */; };
+		DC4890EA17D6EFF400E20E2A /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DC4890E917D6EFF400E20E2A /* Default-568h@2x.png */; };
+		DC4890ED17D6EFF400E20E2A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DC4890EC17D6EFF400E20E2A /* ViewController.m */; };
+		DC4890F017D6EFF400E20E2A /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DC4890EE17D6EFF400E20E2A /* ViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		DC4890D017D6EFF400E20E2A /* Yey.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Yey.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC4890D317D6EFF400E20E2A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		DC4890D517D6EFF400E20E2A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		DC4890D717D6EFF400E20E2A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		DC4890DB17D6EFF400E20E2A /* Yey-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Yey-Info.plist"; sourceTree = "<group>"; };
+		DC4890DD17D6EFF400E20E2A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		DC4890DF17D6EFF400E20E2A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DC4890E117D6EFF400E20E2A /* Yey-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Yey-Prefix.pch"; sourceTree = "<group>"; };
+		DC4890E217D6EFF400E20E2A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DC4890E317D6EFF400E20E2A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DC4890E517D6EFF400E20E2A /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		DC4890E717D6EFF400E20E2A /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		DC4890E917D6EFF400E20E2A /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		DC4890EB17D6EFF400E20E2A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		DC4890EC17D6EFF400E20E2A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		DC4890EF17D6EFF400E20E2A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DC4890CD17D6EFF400E20E2A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC4890D417D6EFF400E20E2A /* UIKit.framework in Frameworks */,
+				DC4890D617D6EFF400E20E2A /* Foundation.framework in Frameworks */,
+				DC4890D817D6EFF400E20E2A /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DC4890C717D6EFF400E20E2A = {
+			isa = PBXGroup;
+			children = (
+				DC4890D917D6EFF400E20E2A /* Yey */,
+				DC4890D217D6EFF400E20E2A /* Frameworks */,
+				DC4890D117D6EFF400E20E2A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DC4890D117D6EFF400E20E2A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DC4890D017D6EFF400E20E2A /* Yey.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DC4890D217D6EFF400E20E2A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DC4890D317D6EFF400E20E2A /* UIKit.framework */,
+				DC4890D517D6EFF400E20E2A /* Foundation.framework */,
+				DC4890D717D6EFF400E20E2A /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DC4890D917D6EFF400E20E2A /* Yey */ = {
+			isa = PBXGroup;
+			children = (
+				DC4890E217D6EFF400E20E2A /* AppDelegate.h */,
+				DC4890E317D6EFF400E20E2A /* AppDelegate.m */,
+				DC4890EB17D6EFF400E20E2A /* ViewController.h */,
+				DC4890EC17D6EFF400E20E2A /* ViewController.m */,
+				DC4890EE17D6EFF400E20E2A /* ViewController.xib */,
+				DC4890DA17D6EFF400E20E2A /* Supporting Files */,
+			);
+			path = Yey;
+			sourceTree = "<group>";
+		};
+		DC4890DA17D6EFF400E20E2A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DC4890DB17D6EFF400E20E2A /* Yey-Info.plist */,
+				DC4890DC17D6EFF400E20E2A /* InfoPlist.strings */,
+				DC4890DF17D6EFF400E20E2A /* main.m */,
+				DC4890E117D6EFF400E20E2A /* Yey-Prefix.pch */,
+				DC4890E517D6EFF400E20E2A /* Default.png */,
+				DC4890E717D6EFF400E20E2A /* Default@2x.png */,
+				DC4890E917D6EFF400E20E2A /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DC4890CF17D6EFF400E20E2A /* Yey */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC4890F317D6EFF400E20E2A /* Build configuration list for PBXNativeTarget "Yey" */;
+			buildPhases = (
+				DC4890CC17D6EFF400E20E2A /* Sources */,
+				DC4890CD17D6EFF400E20E2A /* Frameworks */,
+				DC4890CE17D6EFF400E20E2A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Yey;
+			productName = Yey;
+			productReference = DC4890D017D6EFF400E20E2A /* Yey.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DC4890C817D6EFF400E20E2A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Yuta Teshigawara";
+			};
+			buildConfigurationList = DC4890CB17D6EFF400E20E2A /* Build configuration list for PBXProject "Yey" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = DC4890C717D6EFF400E20E2A;
+			productRefGroup = DC4890D117D6EFF400E20E2A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DC4890CF17D6EFF400E20E2A /* Yey */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DC4890CE17D6EFF400E20E2A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC4890DE17D6EFF400E20E2A /* InfoPlist.strings in Resources */,
+				DC4890E617D6EFF400E20E2A /* Default.png in Resources */,
+				DC4890E817D6EFF400E20E2A /* Default@2x.png in Resources */,
+				DC4890EA17D6EFF400E20E2A /* Default-568h@2x.png in Resources */,
+				DC4890F017D6EFF400E20E2A /* ViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DC4890CC17D6EFF400E20E2A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC4890E017D6EFF400E20E2A /* main.m in Sources */,
+				DC4890E417D6EFF400E20E2A /* AppDelegate.m in Sources */,
+				DC4890ED17D6EFF400E20E2A /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DC4890DC17D6EFF400E20E2A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DC4890DD17D6EFF400E20E2A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		DC4890EE17D6EFF400E20E2A /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DC4890EF17D6EFF400E20E2A /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DC4890F117D6EFF400E20E2A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		DC4890F217D6EFF400E20E2A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DC4890F417D6EFF400E20E2A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Yey/Yey-Prefix.pch";
+				INFOPLIST_FILE = "Yey/Yey-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		DC4890F517D6EFF400E20E2A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Yey/Yey-Prefix.pch";
+				INFOPLIST_FILE = "Yey/Yey-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DC4890CB17D6EFF400E20E2A /* Build configuration list for PBXProject "Yey" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC4890F117D6EFF400E20E2A /* Debug */,
+				DC4890F217D6EFF400E20E2A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DC4890F317D6EFF400E20E2A /* Build configuration list for PBXNativeTarget "Yey" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC4890F417D6EFF400E20E2A /* Debug */,
+				DC4890F517D6EFF400E20E2A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DC4890C817D6EFF400E20E2A /* Project object */;
+}
