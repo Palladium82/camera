@@ -8,6 +8,11 @@
 
 #import <UIKit/UIKit.h>
 
+@class GPUImageView;
+
 @interface ViewController : UIViewController
+@property (weak, nonatomic) IBOutlet GPUImageView *imageView;
+@property (weak, nonatomic) IBOutlet UIToolbar *toolBar;
+@property (weak, nonatomic) IBOutlet UIView *filterSelectView;
 
 @end
